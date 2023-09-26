@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.personalapp.configurable_keyboard.ConfigurableKeyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/keyboard"
+    android:keyPreviewLayout="@layout/custom_keyboard_preview"
+    android:background="@color/black"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content">
+
+</com.personalapp.configurable_keyboard.ConfigurableKeyboard>
