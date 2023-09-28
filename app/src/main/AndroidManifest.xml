@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
 
-        <activity android:name="com.personalapp.configurable_keyboard.MainActivity">
+        <activity android:name="com.personalapp.configurable_keyboard.MainActivity" android:exported="false">
             <intent-filter>
 <!--                <action android:name="android.intent.action.MAIN" />-->
                 <category android:name="android.intent.category.DEFAULT" />
@@ -20,11 +20,11 @@
         </activity>
 
 
-        <activity android:name="com.personalapp.configurable_keyboard.ConfigurationActivity">
+        <activity android:name="com.personalapp.configurable_keyboard.ConfigurationActivity" android:exported="false">
             <intent-filter>
-<!--                <action android:name="android.intent.action.MAIN" />-->
-                    <category android:name="android.intent.category.DEFAULT" />
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+                    <action android:name="android.intent.action.MAIN" />
+<!--                    <category android:name="android.intent.category.DEFAULT" />-->
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
